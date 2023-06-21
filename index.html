@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      margin: 0;
+    }
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 span {
+      color: #ff5c0f
+    }
+    header h1 {
+      color: #20a8b4;
+      margin: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav li a {
+      text-decoration: none;
+      color: #000;
+      transition: color 0.3s ease;
+    }
+    nav li a:hover {
+      color: #ff5c0f;
+    }
+    .main-section {
+      text-align: left;
+      padding: 50px;
+    }
+    .main-section h2 {
+      color: #000;
+    }
+    .main-section h2 span {
+      color:#ff5c0f;
+    }
+    .button {
+      padding: 12px;
+      background-color: #20a8b4;
+      border-radius: 10px;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #ff5c0f;
+    }
+    /* Mobile Styles */
+    @media (max-width: 767px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      .contact-button {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .main-section {
+
+        padding: 20px;
+      }
+      .button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Learn to <span>Code</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Bootcamps</a></li>
+        <li><a href="#">Workshops</a></li>
+        <li><a href="#">Custom Training</a></li>
+        <li><a href="#">Student Stories</a></li>
+        <a class="button" href="#">Contact Us</a>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="main-section">
+    <h2>Do you think about <span>Learning to code?</span></h2>
+    <h3>Learn to code and develop a new career!</h3>
+    <a class="button" href="#">Learn More</a>
+    <img src="file:///C:/Users/karin/Downloads/code.jpg.svg" alt="Code Image">
+  </section>
+  
+  <footer>
+</body>
+<script src="script.js"></script>
+</html>
