@@ -4,6 +4,12 @@ body {
     margin: 0;
   }
   
+  /* @media (max-width: 767px) {
+    .myimage {
+      display: none;
+    }
+  } */
+
   header {
     background-color: #20a8b4;
     padding: 20px;
